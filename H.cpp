@@ -5,7 +5,7 @@ int main(){
     long long x;
     bool flag=0;
     cin>>x;
-    if(x<2)
+    if(x<2)//(x==0 || x==1)
     {
         flag=1;
         return 0;
